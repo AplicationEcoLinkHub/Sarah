@@ -1,0 +1,48 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Educatif" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Style without action bar -->
+
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">#8BC34A</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="colorPrimaryContainer">#000000</item>
+        <item name="colorOnPrimaryContainer">#FDFDFD</item>
+
+        <item name="colorSecondary">@color/colorPrimaryDark</item>
+        <item name="colorOnSecondary">@color/colorPrimaryDark</item>
+        <item name="colorSecondaryContainer">@color/transparent</item>
+        <item name="colorOnSecondaryContainer">@color/white</item>
+
+        <item name="colorTertiary">@color/colorPrimaryDark</item>
+        <item name="colorOnTertiary">@color/colorPrimaryDark</item>
+        <item name="colorTertiaryContainer">@color/colorPrimaryDark</item>
+        <item name="colorOnTertiaryContainer">@color/colorPrimaryDark</item>
+
+        <item name="colorError">#B3261E</item>
+        <item name="colorErrorContainer">#B3261E</item>
+        <item name="colorOnError">#B3261E</item>
+        <item name="colorOnErrorContainer">#B3261E</item>
+        <item name="colorSurface">#8BC34A</item>
+        <item name="colorOnSurface">@color/colorPrimary</item>
+        <item name="colorSurfaceVariant">@color/white</item>
+
+        <item name="colorOutline">@color/teal_200</item>
+        <item name="colorOnSurfaceInverse">@color/white</item>
+        <item name="colorSurfaceInverse">@color/teal_200</item>
+        <item name="colorPrimaryInverse">@color/colorPrimary</item>
+
+        <item name="android:statusBarColor">#8BC34A</item>
+        <item name="android:textColorHighlight">@color/white</item>
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+    </style>
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.Educatif" parent="Base.Theme.Educatif" />
+
+    <style name="AppTheme"></style>
+</resources>

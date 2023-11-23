@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Page 1</string>
+    <string name="ek_img_content">ExportKit Image</string>
+    <string name="astuces_string">Astuces</string>
+    <string name="title">Limitez la consommation de sucres ajoutés</string>
+    <string name="header">On les reconnaît sur les étiquettes par les appellations cassonade, sirop de maïs, sirop de riz brun, sirop de canne, dextrose, à teneur élevée en fructose, concentré de jus de fruit, glucose-fructose, miel et mélasse. Les principales sources de sucre ajouté sont les boissons sucrées (p. ex., boissons gazeuses, thé glacé, limonade, boissons énergisantes, boissons pour sportifs), les bonbons, les gâteaux, les biscuits, les pâtisseries, les boissons aux fruits, les desserts laitiers (p. ex., crème glacée, sorbet), le yogourt sucré et les céréales à déjeuner prêtes à manger.</string>
+    <string name="showmore">Lire le cours</string>
+</resources>

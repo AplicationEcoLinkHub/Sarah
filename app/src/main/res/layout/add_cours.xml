@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/post"
+    android:layout_width="430dp"
+    android:layout_height="932dp"
+    android:clipToOutline="true"
+    android:background="#FFFFFF">
+    <!-- Auto layout, variables, and unit scale are not yet supported -->
+    <ImageButton
+        android:id="@+id/ellipse_29"
+        android:layout_width="517dp"
+        android:layout_height="215dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="-44dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="-96dp"
+        android:background="#8BC34A"
+        />
+
+    <TextView
+        android:id="@+id/nouvelle_pu"
+        android:layout_width="201dp"
+        android:layout_height="24dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="122dp"
+        android:layout_marginTop="162dp"
+        android:gravity="center_horizontal|top"
+        android:text="Nouvelle publication"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+    <ImageView
+        android:id="@+id/rectangle_5"
+        android:layout_width="214dp"
+        android:layout_height="268dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="116dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="251dp"
+        android:background="@color/black"
+
+        />
+
+    <EditText
+        android:id="@+id/addpost"
+        android:layout_width="378dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="350dp"
+        android:hint="Ecrire une légende" />
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/btnAddCours"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:src="@drawable/ic_add" />
+
+
+
+</RelativeLayout>
